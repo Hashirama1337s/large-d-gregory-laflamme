@@ -1,0 +1,4 @@
+P1 HOLDS 0.2624038
+P2 HOLDS 0.5 (-1.0 + 1.5707963267948966j)
+P3 PARTIAL(FAILED) rel 7.69e-6 bar 1e-07 errbar covers True
+P4 PARTIAL(FAILED) rel 1.75e-7 bar 1e-08 errbar covers True

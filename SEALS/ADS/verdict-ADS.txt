@@ -1,0 +1,11 @@
+P0 HOLDS
+P1 HOLDS c = 1.0
+  a1 = 0.0
+  a2 = 0.0
+  a3 rel 6.79e-66 (bar 1e-25)
+  a4 rel 4.6e-62 (bar 1e-25)
+  a5 rel 6.33e-58 (bar 1e-25)
+  a6 rel 7.53e-54 (bar 1e-25)
+  a7 rel 1.18e-51 (bar 1e-15)
+  a8 rel 2.91e-47 (bar 1e-15)
+P2 HOLDS

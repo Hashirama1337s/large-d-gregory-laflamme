@@ -1,0 +1,11 @@
+P1 d=2.5 HOLDS  |diff| 1.97e-7  rel 4.64e-8  3*bar 3.15e-5
+P2 d=3.5 HOLDS  |diff| 1.08e-9  rel 2.16e-10  3*bar 7.2e-8
+P3 d=4.5 HOLDS  |diff| 1.72e-11  rel 2.92e-12  3*bar 9.39e-10
+P4 d=5.5 HOLDS  |diff| 5.05e-13  rel 7.39e-14  3*bar 2.53e-11
+P5 d=7 HOLDS  |diff| 5.32e-15  rel 6.43e-16  3*bar 2.52e-13
+P6 d=8 HOLDS  |diff| 3.63e-16  rel 3.93e-17  3*bar 1.7e-14
+P7 d=10 HOLDS  |diff| 3.22e-18  rel 2.88e-19  3*bar 1.46e-16
+P8 HOLDS 2.92e-12 6.43e-16
+N1 HOLDS
+control m2_d4 5.45726570676677989179021030501638051744 published 5.457
+control m2_d6 7.308348316874099901335470196462750329299 published 7.308

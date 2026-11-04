@@ -1,0 +1,33 @@
+{
+ "m2": {
+  "2.5": "4.256924751201159859853895118466737106237",
+  "3.5": "5.023687523927030479384692270710699597207",
+  "4.5": "5.906950020321062720543782485527540998344",
+  "5.5": "6.835092282328385907778654140319209611406",
+  "7": "8.266316221059771760444376085173400568145",
+  "8": "9.234647241113363133919610817847476142361",
+  "10": "11.18985554656814782491181007660424636607"
+ },
+ "digits": {
+  "2.5": "40",
+  "3.5": "40",
+  "4.5": "40",
+  "5.5": "40",
+  "7": "40",
+  "8": "40",
+  "10": "40"
+ },
+ "digits_note": "40 significant digits reported; all four runs (dps 45 and 65 x matching points y_m = 0.35R and 0.5R) agree to >= 42 significant digits (min pairwise agreement per d: 4:45, 6:42, 2.5:46, 3.5:42, 4.5:45, 5.5:45, 7:45, 8:45, 10:44)",
+ "m2_d4": "5.45726570676677989179021030501638051744",
+ "m2_d6": "7.308348316874099901335470196462750329299",
+ "equation": "A'' + P A' + Q A = 0 (prime = d/dr), A = h_tt/(r^2 f) in the gauge h_rx = 0, delta h_yy = 0 (gauge-invariant form Z = A + (2+(d-2)w)/(1-w) * h_yy/(2 r^2) for transverse y), w = r^-d, f = 1-w, q^2 = -m2: P = (d-1+w)((d-2)w+2(d+1)) / ( r (w-1) ((d-2)w-2(d-1)) ), Q = m2/(r^4 f) + d^3 w^2 / ( r^2 f^2 (2(d-1)-(d-2)w) ). Horizon exponents -1,-1 (regular = non-log branch, A ~ 1/(r-1)); boundary exponents in z=1/r: 0 (source), d (normalizable); normalizable branch = z^d * sum_{j,k} c_jk z^(2j+dk).",
+ "controls": {
+  "background": "3D warped-product reduction reproduces R_MN = -d g_MN exactly on the background (all residuals 0, symbolic d)",
+  "pure_gauge": "xi = (0, Xr(r), Xx(r)) e^{mx} pure-gauge perturbations solve all 5 linearized Einstein equations identically (symbolic d); Z vanishes identically on pure gauge",
+  "consistency": "master equation + derived h_rr, h_xx' satisfy the remaining rr and xx Einstein equations identically (symbolic d, m)",
+  "d4_BKY": "BKY arXiv:0705.0994 Table 1, G00 mode: m0 = 2.3361 piT; here piT = d/4 = 1, m = sqrt(m2_d4) = 2.336079131101 -> agrees to all 5 published digits",
+  "d6_BMT_table": "BMT hep-th/0003115 Table 2, S4 n=0: m^2 = 7.308 (same units: g_tautau = r^2 - r^-4, R_AdS = 1); here 7.308348... -> agrees to all 4 published digits",
+  "d6_BMT_equation_resolved": "BMT eq.(9) S4 line (different variable/gauge h_{4mu}=0, polynomial coefficients) re-solved by me at dps 45 with matching r = 1.08, 1.11: 7.3083483168740999013354701964627503292986(5), agrees with my master equation to 42 digits",
+  "lowest_root": "W(m2) scanned from m2 = 0.005 upward (step 0.02-0.05, plus step 0.25 bracket scan): first sign change is the reported root for every d"
+ }
+}

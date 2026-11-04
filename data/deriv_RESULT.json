@@ -1,0 +1,491 @@
+{
+ "k3": {
+  "rational": "-25/16",
+  "zeta": {
+   "zeta3": "2"
+  }
+ },
+ "k4": {
+  "rational": "363/128",
+  "zeta": {
+   "zeta3": "-5"
+  }
+ },
+ "k5": {
+  "rational": "-1335/256",
+  "zeta": {
+   "zeta3": "47/4",
+   "zeta5": "-38"
+  }
+ },
+ "k6": {
+  "rational": "9923/1024",
+  "zeta": {
+   "zeta3": "-213/8",
+   "zeta6": "-160",
+   "zeta5": "139",
+   "zeta3^2": "2"
+  }
+ },
+ "k7": {
+  "rational": "-37193/2048",
+  "zeta": {
+   "zeta3": "3771/64",
+   "zeta5": "-1685/4",
+   "zeta7": "146",
+   "zeta6": "880",
+   "zeta3^2": "-9",
+   "zeta3zeta4": "192"
+  }
+ },
+ "k8": {
+  "rational": "1122995/32768",
+  "zeta": {
+   "zeta3": "-16419/128",
+   "zeta8": "6992",
+   "zeta5": "9283/8",
+   "zeta7": "1995",
+   "zeta6": "-3740",
+   "zeta3^2": "119/4",
+   "zeta(5,3)": "320",
+   "zeta3zeta5": "1844",
+   "zeta3zeta4": "-1248"
+  }
+ },
+ "k9": {
+  "rational": "-4262699/65536",
+  "zeta": {
+   "zeta3": "141275/512",
+   "zeta8": "-27544",
+   "zeta5": "-192913/64",
+   "zeta7": "-90473/4",
+   "zeta9": "125014/3",
+   "zeta6": "15030",
+   "zeta3^2": "-689/8",
+   "zeta3^3": "-124/3",
+   "zeta(5,3)": "-2784",
+   "zeta4zeta5": "2304",
+   "zeta3zeta5": "-15890",
+   "zeta3zeta6": "4160",
+   "zeta3zeta4": "6312"
+  }
+ },
+ "k10": {
+  "rational": "32515353/262144",
+  "zeta": {
+   "zeta3": "-602293/1024",
+   "zeta8": "-24002",
+   "zeta5": "962941/128",
+   "zeta7": "1348523/8",
+   "zeta9": "-336969",
+   "zeta6": "-252895/4",
+   "zeta10": "16768",
+   "zeta3^2": "14795/64",
+   "zeta3^3": "354",
+   "zeta5^2": "-43630",
+   "zeta(5,3)": "19000",
+   "zeta(7,3)": "-6016",
+   "zeta3zeta6": "-85600",
+   "zeta4zeta5": "-43008",
+   "zeta3zeta5": "211155/2",
+   "zeta3zeta7": "-96476",
+   "zeta3zeta4": "-30972",
+   "zeta3^2zeta4": "-1920"
+  }
+ },
+ "Lambda_series": {
+  "definition": "Lambda = k_GL^2/n = sum_j Lambda_j n^-j",
+  "coefficients": {
+   "Lambda0": {
+    "rational": "1",
+    "zeta": {}
+   },
+   "Lambda1": {
+    "rational": "-1",
+    "zeta": {}
+   },
+   "Lambda2": {
+    "rational": "2",
+    "zeta": {}
+   },
+   "Lambda3": {
+    "rational": "-4",
+    "zeta": {
+     "zeta3": "4"
+    }
+   },
+   "Lambda4": {
+    "rational": "8",
+    "zeta": {
+     "zeta3": "-12"
+    }
+   },
+   "Lambda5": {
+    "rational": "-16",
+    "zeta": {
+     "zeta3": "32",
+     "zeta5": "-76"
+    }
+   },
+   "Lambda6": {
+    "rational": "32",
+    "zeta": {
+     "zeta3": "-80",
+     "zeta6": "-320",
+     "zeta5": "316",
+     "zeta3^2": "8"
+    }
+   },
+   "Lambda7": {
+    "rational": "-64",
+    "zeta": {
+     "zeta3": "192",
+     "zeta5": "-1048",
+     "zeta7": "292",
+     "zeta6": "1920",
+     "zeta3^2": "-40",
+     "zeta3zeta4": "384"
+    }
+   },
+   "Lambda8": {
+    "rational": "128",
+    "zeta": {
+     "zeta3": "-448",
+     "zeta8": "13984",
+     "zeta5": "3104",
+     "zeta7": "3844",
+     "zeta6": "-8640",
+     "zeta3^2": "144",
+     "zeta(5,3)": "640",
+     "zeta3zeta5": "3536",
+     "zeta3zeta4": "-2688"
+    }
+   },
+   "Lambda9": {
+    "rational": "-256",
+    "zeta": {
+     "zeta3": "1024",
+     "zeta8": "-62080",
+     "zeta5": "-8576",
+     "zeta7": "-46976",
+     "zeta9": "250028/3",
+     "zeta6": "35840",
+     "zeta3^2": "-448",
+     "zeta3^3": "-224/3",
+     "zeta(5,3)": "-5888",
+     "zeta4zeta5": "4608",
+     "zeta3zeta5": "-32688",
+     "zeta3zeta6": "7680",
+     "zeta3zeta4": "14208"
+    }
+   },
+   "Lambda10": {
+    "rational": "512",
+    "zeta": {
+     "zeta3": "-2304",
+     "zeta8": "-8224",
+     "zeta5": "22592",
+     "zeta7": "362784",
+     "zeta9": "-2146828/3",
+     "zeta6": "-151680",
+     "zeta10": "33536",
+     "zeta3^2": "1280",
+     "zeta3^3": "2080/3",
+     "zeta5^2": "-85816",
+     "zeta(5,3)": "41344",
+     "zeta(7,3)": "-12032",
+     "zeta3zeta6": "-170240",
+     "zeta4zeta5": "-88320",
+     "zeta3zeta5": "226304",
+     "zeta3zeta7": "-192368",
+     "zeta3zeta4": "-71040",
+     "zeta3^2zeta4": "-3072"
+    }
+   }
+  }
+ },
+ "decimal_values": {
+  "k0": "1.0",
+  "k1": "-0.5",
+  "k2": "0.875",
+  "k3": "0.841613806319188570799476323023",
+  "k4": "-3.17434701579797142699869080756",
+  "k5": "-30.4939298333228243471449650876",
+  "k6": "-38.0663857148403719752037245416",
+  "k7": "895.13211705387321186775998605",
+  "k8": "7040.44135112188667684414188483",
+  "k9": "-498.853194155524463659985555888",
+  "k10": "-458974.765607749456683224518811"
+ },
+ "conventions": "k_GL = sqrt(n) sum_j k_j n^-j, D=n+4, r0=1; zeta(5,3)=sum_{a>b>=1} a^-5 b^-3 (similarly zeta(7,3), zeta(3,5,3)); even zetas written as zeta(2m) (zeta2^m converted exactly).",
+ "orders_derived": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12
+ ],
+ "method": "Own derivation from linearised Einstein eqs (static s-wave perturbation of the uniform string, gauge c=e=0: sphere radius and g_zz unperturbed). Gauge-invariant first-order 3x3 system for (A,B,P) plus one algebraic constraint; singular points only X=r^n=0,1,inf at every order (no apparent singularity, unlike scalar master eqs). 1/n expansion in horizon variable y=1-r^-n: leading operator triangular, so each order = three 1D integrations; solutions are rational(y) x HPLs with letters {0,1} (own exact HPL algebra). Per order: constraint C_m==0, no ln y at horizon (regularity), no x^p (p<=0) terms at X->inf (decay; far zone contributes beyond all orders) fix c_P, c_S and Lambda_{m-1}. Constants H(w;1) reduced to an MZV basis by own regularised double-shuffle linear algebra (weights<=11). Recursion run to order 11 -> k0..k10. k3,k4 re-derived (not input). No PSLQ/fitting for any coefficient.",
+ "numerical_checks": {
+  "independent_equation": "Kol optimal-gauge master equation (Asnin et al. arXiv:0706.1555 Sec.2, eqs master/Xmaster), Taylor-stepping analytic continuation in mpmath, horizon Frobenius + far-zone Bessel K_{n/2}, matched at X=4.",
+  "controls": "n=2 gives k_GL=1.26892 (known D=6 value ~1.27); low orders Lambda0..2 = 1,-1,2 reproduce Asnin et al. lambda=n-1+2/n; k3,k4 reproduce 1502.02820/1802.08191.",
+  "convergence": "each n run at (60 digits, step ratio 0.4) and (75 digits, ratio 0.3): agreement <= 4.4e-59 for n=100..3200.",
+  "kGL_numeric": {
+   "100": "9.950883067925266776751479141807205246079",
+   "200": "14.10709110225289964481661128465894549409",
+   "400": "19.97510963546462268256000914295713401772",
+   "800": "28.26663229410553142333246727547525349832",
+   "1600": "39.9875136800743937361980488327524707348",
+   "3200": "56.55970849534792178569270233216394005383"
+  },
+  "residual_after_k10": "k_num - sqrt(n) sum_{j<=10} k_j n^-j = -3.9e-15, -2.7e-18, -1.9e-21, -1.3e-24, -9.0e-28, -6.2e-31 for n=100..3200: clean n^-10.5 scaling (ratio 2^10.5 per doubling), i.e. consistent with next coefficient k11 ~ -3.969e6 and nothing missing.",
+  "implied_bounds_on_coefficient_errors": {
+   "k5": "3.7e-15",
+   "k6": "1.2e-11",
+   "k7": "3.8e-8",
+   "k8": "1.2e-4",
+   "k9": "0.39 (fit: <=2e-5)",
+   "k10": "fit of R_10(n): implied error coefficient ~1e-5"
+  },
+  "richardson_per_order": "R_J(n)=(k_num/sqrt(n)-sum_{j<=J}k_j n^-j) n^{J+1} extrapolated (6 pts) vs exact k_{J+1}: k3 3e-13, k4 2e-11, k5 1e-10, k6 3e-10, k7 1.5e-8, k8 1.4e-7, k9 1.8e-7, k10 2.8e-3 (4 pts).",
+  "internal": "per order the overdetermined system (constraint, horizon logs, decay) is consistent and C_m vanishes identically; Lambda_j unchanged under a different normalisation (c_B=7/3); MZV table passes duality on all 510 compositions of weight<=10 and closed-form/numeric controls."
+ },
+ "k11": {
+  "rational": "-124509807/524288",
+  "zeta": {
+   "zeta9": "10717261/12",
+   "zeta5": "-9336937/512",
+   "zeta3": "20396371/16384",
+   "zeta7": "-73732557/64",
+   "zeta8": "1314257",
+   "zeta6": "2420345/8",
+   "zeta11": "-1676038",
+   "zeta10": "-2143168",
+   "zeta5^2": "153127",
+   "zeta3^2": "-75599/128",
+   "zeta3^3": "-12545/6",
+   "zeta(7,3)": "21568",
+   "zeta(5,3)": "-125804",
+   "zeta5zeta6": "-895040",
+   "zeta3zeta5": "-2711657/4",
+   "zeta3zeta6": "958040",
+   "zeta4zeta5": "438816",
+   "zeta3zeta7": "374350",
+   "zeta3zeta8": "-1496224",
+   "zeta3zeta4": "328545/2",
+   "zeta4zeta7": "-420288",
+   "zeta(3,5,3)": "7168",
+   "zeta3^2zeta5": "29108",
+   "zeta3^2zeta4": "20928",
+   "zeta3*zeta(5,3)": "6016"
+  },
+  "numeric_80": "-3969169.087163384208740858022157027434120763679197266415284429599016784188467784491912"
+ },
+ "k12": {
+  "rational": "1913642943/4194304",
+  "zeta": {
+   "zeta9": "206996285/24",
+   "zeta5": "44270515/1024",
+   "zeta3": "-85848183/32768",
+   "zeta7": "1040413741/128",
+   "zeta8": "-120509953/8",
+   "zeta6": "-55794475/32",
+   "zeta11": "-4762849",
+   "zeta12": "-111443870320/6219",
+   "zeta10": "17401168",
+   "zeta5^2": "6985439/4",
+   "zeta3^2": "746067/512",
+   "zeta3^3": "132083/12",
+   "zeta3^4": "514/3",
+   "zeta(7,3)": "246320",
+   "zeta(9,3)": "-3558080/9",
+   "zeta(5,3)": "1763487/2",
+   "zeta5zeta6": "8685920",
+   "zeta3zeta5": "148061599/32",
+   "zeta3zeta6": "-8973020",
+   "zeta4zeta5": "-3792480",
+   "zeta5zeta7": "-26945860/3",
+   "zeta3zeta7": "6736863/2",
+   "zeta3zeta8": "14678832",
+   "zeta3zeta4": "-4018209/4",
+   "zeta4zeta7": "4110432",
+   "zeta3zeta9": "-32102740/3",
+   "zeta(3,5,3)": "-79616",
+   "zeta3^2zeta5": "-245434",
+   "zeta3^2zeta4": "-157968",
+   "zeta3^2zeta6": "1132480",
+   "zeta4*zeta(5,3)": "115200",
+   "zeta3zeta4zeta5": "855936",
+   "zeta3*zeta(5,3)": "-54336"
+  },
+  "numeric_80": "1249860.146161162545968094075434265798143314562476945869311423796905593093419812686648"
+ },
+ "Lambda_series_v2_additions": {
+  "Lambda10": {
+   "rational": "512",
+   "zeta": {
+    "zeta9": "-2146828/3",
+    "zeta5": "22592",
+    "zeta3": "-2304",
+    "zeta7": "362784",
+    "zeta8": "-8224",
+    "zeta6": "-151680",
+    "zeta10": "33536",
+    "zeta5^2": "-85816",
+    "zeta3^2": "1280",
+    "zeta3^3": "2080/3",
+    "zeta(7,3)": "-12032",
+    "zeta(5,3)": "41344",
+    "zeta3zeta5": "226304",
+    "zeta3zeta6": "-170240",
+    "zeta4zeta5": "-88320",
+    "zeta3zeta7": "-192368",
+    "zeta3zeta4": "-71040",
+    "zeta3^2zeta4": "-3072"
+   }
+  },
+  "Lambda11": {
+   "rational": "-1024",
+   "zeta": {
+    "zeta9": "2196104",
+    "zeta5": "-57472",
+    "zeta3": "5120",
+    "zeta7": "-2517696",
+    "zeta8": "2582464",
+    "zeta6": "712960",
+    "zeta11": "-3352076",
+    "zeta10": "-4303104",
+    "zeta5^2": "339320",
+    "zeta3^2": "-3456",
+    "zeta3^3": "-4352",
+    "zeta(7,3)": "49152",
+    "zeta(5,3)": "-276480",
+    "zeta5zeta6": "-1777920",
+    "zeta3zeta5": "-1480832",
+    "zeta3zeta6": "1981440",
+    "zeta4zeta5": "924672",
+    "zeta3zeta7": "851696",
+    "zeta3zeta8": "-2964480",
+    "zeta3zeta4": "375552",
+    "zeta4zeta7": "-840576",
+    "zeta(3,5,3)": "14336",
+    "zeta3^2zeta5": "65440",
+    "zeta3^2zeta4": "36864",
+    "zeta3*zeta(5,3)": "13312"
+   }
+  },
+  "Lambda12": {
+   "rational": "2048",
+   "zeta": {
+    "zeta9": "46910000/3",
+    "zeta5": "142336",
+    "zeta3": "-11264",
+    "zeta7": "17784000",
+    "zeta8": "-31358016",
+    "zeta6": "-3980800",
+    "zeta11": "-7849660",
+    "zeta12": "-222723004640/6219",
+    "zeta10": "36974848",
+    "zeta5^2": "3314576",
+    "zeta3^2": "8960",
+    "zeta3^3": "71680/3",
+    "zeta3^4": "544/3",
+    "zeta(7,3)": "460544",
+    "zeta(9,3)": "-7116160/9",
+    "zeta(5,3)": "1933056",
+    "zeta5zeta6": "18155520",
+    "zeta3zeta5": "10131200",
+    "zeta3zeta6": "-18940160",
+    "zeta4zeta5": "-8106240",
+    "zeta5zeta7": "-53925008/3",
+    "zeta3zeta7": "6086688",
+    "zeta3zeta8": "30673792",
+    "zeta3zeta4": "-2256384",
+    "zeta4zeta7": "8641152",
+    "zeta3zeta9": "-63705424/3",
+    "zeta(3,5,3)": "-166400",
+    "zeta3^2zeta5": "-600736",
+    "zeta3^2zeta4": "-297984",
+    "zeta3^2zeta6": "2280960",
+    "zeta4*zeta(5,3)": "230400",
+    "zeta3zeta4zeta5": "1706496",
+    "zeta3*zeta(5,3)": "-129024"
+   }
+  },
+  "Lambda11_numeric": "-7471747.06906045840149488262358654854615893997385730971795688",
+  "Lambda12_numeric": "5567003.10599882547884229812992979185474873250147113742714669"
+ },
+ "v2": {
+  "date": "2026-11-03",
+  "k3_k10_unchanged_on_rerun": true,
+  "recursion": "same code (work/solve.py), run to order 13 (log work/solve13.log); all per-order checks pass incl. B_13 decay.",
+  "mzv_tables": "weights 12,13 built with exact flint fmpq_mat rref of the same regularised double-shuffle system (work/mzv_flint.py); flint tables identical to Fraction tables at w=8,10,11; fully reduced with dims 12 (w=12), 16 (w=13) = Zagier d_w. Basis generators: z2,z3,z5,z7,z9,z11,z13, zeta(5,3), zeta(7,3), zeta(3,5,3), zeta(9,3), zeta(6,4,1,1), zeta(5,5,3), zeta(7,3,3). zeta(7,5) cannot replace zeta(6,4,1,1): at weight 12 depth-2 odd zetas obey the Gangl-Kaneko-Zagier cusp relation mod products, so a depth-4 generator is needed (basis choice is a convention).",
+  "mzv_numerics": "single zetas: mpmath zeta at 110 digits. Multiple zetas (zeta(5,3), zeta(7,3), zeta(3,5,3), zeta(9,3), zeta(6,4,1,1), zeta(5,5,3), zeta(7,3,3)): own path-splitting at 1/2, H(a1..an;1) = sum_k H(rs(a1..ak);1/2) H(a_{k+1}..an;1/2) with rs = reverse+swap letters, each piece an exact-coefficient power series in 2^-i summed to 2^-427 at 110 digits (work/mzvnum.py). Controls: zeta(2,1)-zeta3, zeta2, zeta13, zeta(2^6)-pi^12/13! all < 1e-110; zeta(5,3) agrees with the independent Hurwitz nsum value of v1; 75 random compositions of weight 11-13: table value vs direct evaluation max diff 7.9e-108.",
+  "mzv_values_100_digits": {
+   "zeta3": "1.202056903159594285399738161511449990764986292340498881792271555341838205786313090186455873609335258",
+   "zeta5": "1.036927755143369926331365486457034168057080919501912811974192677903803589786281484560043106557133336",
+   "zeta7": "1.008349277381922826839797549849796759599863560565238706417283136571601478317355735346096968913851324",
+   "zeta(5,3)": "0.03770767298484754401130478229365991482260131941527752401264507780391093875550721989138360298190770864",
+   "zeta9": "1.002008392826082214417852769232412060485605851394888756548596615909785053390258398950393069127169586",
+   "zeta(7,3)": "0.008419668503096332423968579714670650636917875063958092272574516635904690047915337779627353923371587551",
+   "zeta(3,5,3)": "0.002630072587647467345248476381643626921182706358082168276004591652969652567706902966672473412560812118",
+   "zeta11": "1.00049418860411946455870228252646993646860643575820861711914143610005405979821981470259184302356063",
+   "zeta(9,3)": "0.002015478010882029467830531458581355038747766514374493376092792207730526507073439832087911036361847265",
+   "zeta(6,4,1,1)": "0.000002662935345819790006071482151266718276921890726448694386306666776883171125333491829206172540159361145",
+   "zeta13": "1.000122713347578489146751836526357395714275105895509845136702671620896726829844209812892713953268136",
+   "zeta(5,5,3)": "0.0001854582152303215600456173195738127793573512030423503921635748629457378805621582786097746195475572966",
+   "zeta(7,3,3)": "0.00007081683142724578879380382562919331127063776411187698708123863225552559290532597086487410814326037466"
+  },
+  "no_numeric_input": "k11, k12 come only from the exact recursion; no fit or PSLQ used. Numerics below are checks only.",
+  "numerical_check_k11_k12": {
+   "data": "same 75-digit Kol-master-equation k_GL values as v1 (n=100..3200)",
+   "rows": {
+    "100": {
+     "resid_after_k10": "-3.912e-15",
+     "resid_after_k12": "4.476e-17",
+     "R11=(.)*n^12 -> k12": "5725522.22",
+     "R12=(.)*n^13 -> k13": "4.4756621e+8"
+    },
+    "200": {
+     "resid_after_k10": "-2.729e-18",
+     "resid_after_k12": "7.338e-21",
+     "R11=(.)*n^12 -> k12": "3375145.388",
+     "R12=(.)*n^13 -> k13": "4.2505705e+8"
+    },
+    "400": {
+     "resid_after_k10": "-1.89e-21",
+     "resid_after_k12": "1.233e-24",
+     "R11=(.)*n^12 -> k12": "2284158.32",
+     "R12=(.)*n^13 -> k13": "4.1371927e+8"
+    },
+    "800": {
+     "resid_after_k10": "-1.306e-24",
+     "resid_after_k12": "2.099e-28",
+     "R11=(.)*n^12 -> k12": "1759932.717",
+     "R12=(.)*n^13 -> k13": "4.0805806e+8"
+    },
+    "1600": {
+     "resid_after_k10": "-9.023e-28",
+     "resid_after_k12": "3.599e-32",
+     "R11=(.)*n^12 -> k12": "1503130.452",
+     "R12=(.)*n^13 -> k13": "4.0523249e+8"
+    },
+    "3200": {
+     "resid_after_k10": "-6.231e-31",
+     "resid_after_k12": "6.192e-36",
+     "R11=(.)*n^12 -> k12": "1376054.312",
+     "R12=(.)*n^13 -> k13": "4.0382133e+8"
+    }
+   },
+   "reading": "residual after k12 should fall as n^-12.5 and R12 should tend to a constant (k13); R11 should tend to k12."
+  }
+ }
+}

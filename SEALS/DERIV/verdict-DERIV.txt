@@ -1,0 +1,5 @@
+C1a HOLDS term-by-term True numeric diff 0.0 seat: (Fraction(-25, 16), {'zeta3': Fraction(2, 1)})
+C1b HOLDS term-by-term True numeric diff 0.0 seat: (Fraction(363, 128), {'zeta3': Fraction(-5, 1)})
+P1 HOLDS term-by-term True numeric diff 0.0 seat: (Fraction(-1335, 256), {'zeta3': Fraction(47, 4), 'zeta5': Fraction(-38, 1)})
+P2 HOLDS term-by-term True numeric diff 0.0 seat: (Fraction(9923, 1024), {'zeta3': Fraction(-213, 8), 'zeta6': Fraction(-160, 1), 'zeta5': Fraction(139, 1), 'zeta3^2': Fraction(2, 1)})
+memcap: exit 0, peak 0.02 GB of 2.00 GB cap

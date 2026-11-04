@@ -1,0 +1,11 @@
+g41: new 4.8975381e+43 pred 4.8948701e+43 rel 0.000545 tol 0.03 trusted<1% True -> ok
+g42: new 2.2964733e+45 pred 2.2958337e+45 rel 0.000279 tol 0.03 trusted<1% True -> ok
+g43: new 5.0782189e+46 pred 5.0780042e+46 rel 4.23e-5 tol 0.03 trusted<1% True -> ok
+g44: new 2.8348404e+47 pred 2.8394235e+47 rel 0.00161 tol 0.05 trusted<1% True -> ok
+g45: new -2.6189342e+49 pred -2.6169377e+49 rel 0.000763 tol 0.03 trusted<1% True -> ok
+g46: new -1.2346651e+51 pred -1.2342673e+51 rel 0.000322 tol 0.03 trusted<1% True -> ok
+g47: new -2.8621255e+52 pred -2.8623086e+52 rel 6.4e-5 tol 0.03 trusted<1% True -> ok
+g48: new -1.6197321e+53 pred -1.6242147e+53 rel 0.00276 tol 0.05 trusted<1% True -> ok
+g49: new 1.7251737e+55 pred 1.7234343e+55 rel 0.00101 tol 0.03 trusted<1% True -> ok
+g50: new 8.6748526e+56 pred 8.6716897e+56 rel 0.000365 tol 0.03 trusted<1% True -> ok
+P1 HOLDS

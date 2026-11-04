@@ -1,0 +1,12 @@
+C1: HOLDS  g3 rel 2.92e-78, g4 rel 5.57e-75
+C2: HOLDS  lambda4 rel 5.31e-31 (seat C has 30 digits), 4-digit 0.7677
+P1: HOLDS  k5 rel 1.62e-71
+P2: HOLDS  k6 rel 8.97e-61
+P3: HOLDS  d30 rel 7.36e-17, d50 rel 8.12e-17
+N1: HOLDS  -37 zeta5 variant misses by rel 0.034
+N2: HOLDS  no-zeta5 basis -> None; perturbed -> None
+
+POST HOC (not sealed): seat B identified k6 = 9923/1024 - (213/8)zeta3 + 139 zeta5 + 2 zeta3^2 - 160 zeta6;
+  vs seat C k6 (57 digits, unidentified): rel 8.97e-61
+  vs seat B fitted k6: 9.79e-68
+memcap: exit 0, peak 0.02 GB of 2.00 GB cap

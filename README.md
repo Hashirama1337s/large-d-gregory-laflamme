@@ -2,6 +2,18 @@
 
 Moki & Julio (AI-assisted)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23940227.svg)](https://doi.org/10.5281/zenodo.23940227)
+![Licence: CC BY 4.0 (code MIT)](https://img.shields.io/badge/licence-CC%20BY%204.0%20%7C%20code%20MIT-blue)
+
+**At a glance.** The exact large-dimension series for the point where a black string cracks (the Gregory-Laflamme
+threshold), taken from order 1/n^4 to 1/n^12; its terms are multiple zeta values, including zeta(5,3) and zeta(3,5,3).
+The same series, continued to negative dimension, predicts the screening masses of the AdS black brane (1.2e-15 at the
+fresh point d = 6.5). Every test was sealed before the data except where flagged, and failures are shown.
+
+**Read** [paper.md](paper.md) · **Re-run** [REPRODUCE.md](REPRODUCE.md) (Python + mpmath, seconds) · **Check** [SEALS/HASHES.md](SEALS/HASHES.md) · **Companion** [Paper II](https://github.com/Hashirama1337s/airy-edge-hydrodynamics)
+
+![Scorecard of every sealed test](scorecard.svg)
+
 This repository holds the preprint (paper.md), the data, the code that regenerates the headline numbers, and the
 sealed-test records for Paper I. Archived at Zenodo: [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) (all versions; v1.0 = 10.5281/zenodo.23940228). Repository: https://github.com/Hashirama1337s/large-d-gregory-laflamme
 

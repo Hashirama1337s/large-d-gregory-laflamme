@@ -1,0 +1,13 @@
+C1: HOLDS  stuffle residual 2.25e-131, zeta(5,3) = 0.03770767298484754401130478
+P1: HOLDS  k7 rel 7.58e-92 (round2 digits 88)
+P2: HOLDS  k8 rel vs seat B 1.94e-74
+  relation (find 63 digits): [27, 69859, -260244, -517447, 798043, -357375, -128565, 46765, -883506, 198422, 227064, 126218, 367991]; holdout residual 1.91e-59; null -> [-124, -201647, 583295, -370845, -104984, 668102, -658155, -231807, 522750, -600232, 321922, 338669, 234149]
+  L8 = (-2587.37037037)*1 + (9638.66666667)*zeta3 + (19164.7037037)*zeta5 + (-29557.1481481)*zeta3^2 + (13236.1111111)*zeta6 + (4761.66666667)*zeta7 + (-1732.03703704)*zeta3zeta4 + (32722.4444444)*zeta2zeta5 + (-7348.96296296)*zeta8 + (-8409.77777778)*zeta3zeta5 + (-4674.74074074)*zeta(5,3) + (-13629.2962963)*zeta2zeta3^2
+P3: VOID  no verified relation on B8 (trusted digits 84, find 63)
+P4: VOID  no verified relation on B8 (trusted digits 84, find 63)
+P5: VOID  no verified relation on B8 (trusted digits 84, find 63)
+N1: HOLDS  perturbed -> [-124, -201647, 583295, -370845, -104984, 668102, -658155, -231807, 522750, -600232, 321922, 338669, 234149]
+memcap: exit 0, peak 0.03 GB of 4.00 GB cap
+k8 formula vs round2 unconstrained k8: rel 1.1e-87 (data trusted to 84 digits)
+round2 L8 (lambda-log normalisation) = -128 z3 + 1664 z5 - 6400 z6 + 4136 z7 - 2304 z3z4 + 13984 z8 + 3840 z3z5 + 640 z(5,3)
+-> in BAR-K8 normalisation (log of k-series = 1/2 rational log + 1/2 L): rational 255/16 (from 1/2 log((n+1)/(n+2))), zeta3 -64, zeta3^2 0

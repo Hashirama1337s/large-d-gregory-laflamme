@@ -1,0 +1,4 @@
+P1 HOLDS (VOID beyond max_order < 25) (checked j = 0..22) 
+P2 HOLDS (VOID beyond max_order < 25) (checked j = 0..22) 
+P3 HOLDS (VOID beyond max_order < 25) (checked j = 0..22) 
+P4 HOLDS (VOID beyond max_order < 25) (checked j = 0..22) 

@@ -1,0 +1,9 @@
+d=-12 NOT A POLE (reported) pred -0.1741247 -> FAILED point
+d=-16 res -0.0078413055 pred -0.0087487513 dev 0.104 tol 0.02
+d=-22 res 3.5539153e-5 pred 3.56e-5 dev 0.00171 tol 0.02
+d=-24 res -4.5760863e-6 pred -4.5777574e-6 dev 0.000365 tol 0.002
+d=-28 res -5.8428108e-8 pred -5.8435724e-8 dev 0.00013 tol 0.002
+d=-32 res -5.4874755e-10 pred -5.487887e-10 dev 7.5e-5 tol 0.002
+gap n=16.4 -0.020347183 pred -0.016762385 dev 0.214 tol 0.01
+gap n=28.4 -9.9189642e-8 pred -9.9201511e-8 dev 0.00012 tol 0.001
+{'P1': 'FAILED', 'P2': 'FAILED', 'P3': 'FAILED', 'P4': 'HOLDS'}

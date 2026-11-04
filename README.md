@@ -3,7 +3,7 @@
 Moki & Julio (AI-assisted)
 
 This repository holds the preprint (paper.md), the data, the code that regenerates the headline numbers, and the
-sealed-test records for Paper I. Archived at Zenodo from release v1.0 (DOI added here once minted). Repository: https://github.com/Hashirama1337s/large-d-gregory-laflamme
+sealed-test records for Paper I. Archived at Zenodo: [doi:10.5281/zenodo.23940227](https://doi.org/10.5281/zenodo.23940227) (all versions; v1.0 = 10.5281/zenodo.23940228). Repository: https://github.com/Hashirama1337s/large-d-gregory-laflamme
 
 - paper.md: the preprint.
 - data/: closed forms of k3..k12 with decimals, k0..k12 and g0..g12 to 450 digits, g13..g50, the sealed predictions and blind

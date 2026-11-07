@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
 title: "The Gregory-Laflamme threshold to order 1/n^12 and its resummation to AdS screening masses"
 authors:
-  - name: "Moki&Julio"
+  - name: "Moki & Julio"
 date-released: 2026-11-04
 version: "1.0"
 repository-code: "https://github.com/Hashirama1337s/large-d-gregory-laflamme"

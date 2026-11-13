@@ -4,7 +4,7 @@
   "publication_type": "preprint",
   "version": "1.0",
   "description": "<p>The exact large-dimension (1/n) series of the Gregory-Laflamme threshold of the black string, extended from order 1/n^4 to 1/n^12; the coefficients are multiple zeta values, including zeta(5,3) and zeta(3,5,3), and the last two orders were derived blind and matched unseen numerics to 59-64 digits. Strong numerical evidence that the series diverges, with a large-order law (prefactor and phase) that predicted coefficients 41-50 blind. The same series continued to n = -d through the AdS/Ricci-flat map and resummed predicts the static sound-channel screening masses of the AdS_{d+1} black brane (1.2e-15 at the fresh point d = 6.5). Every test was sealed before the data except where flagged; failures are reported as failures. Contains the preprint, data, code that regenerates the headline numbers, and the sealed-test records.</p>",
-  "creators": [{"name": "Moki&Julio"}],
+  "creators": [{"name": "Moki & Julio"}],
   "access_right": "open",
   "license": "cc-by-4.0",
   "keywords": ["Gregory-Laflamme instability", "large D", "black strings", "multiple zeta values", "resurgence", "AdS/Ricci-flat correspondence", "screening mass", "holography", "Pade resummation", "pre-registered tests"]

@@ -15,8 +15,10 @@ Many black-hole questions are hard to solve exactly in our four dimensions. They
 dimensions is very large. The price is that every answer comes as an endless list of corrections, one per power of 1/D.
 
 A **black string** is a black hole stretched along an extra dimension. If it is long enough, it is unstable and starts to
-break up. A picture that helps (it is only a picture): a thin stream of water from a tap, which beads into drops once it is
-long enough. Where the picture breaks: there is no water and no surface tension here, only the geometry of space and time,
+break up.
+
+![](brand/icon-picture.svg) **The idea in one picture.** A thin stream of water from a tap, which beads into drops once it is
+long enough. **Where the picture breaks.** There is no water and no surface tension here, only the geometry of space and time,
 and we compute only the point where the trouble *starts*, not what happens after.
 
 That starting point is one number, the **Gregory-Laflamme threshold**. Five terms of its list were published in 2015 and

@@ -3,9 +3,27 @@
   "upload_type": "publication",
   "publication_type": "preprint",
   "version": "1.0",
-  "description": "<p>The exact large-dimension (1/n) series of the Gregory-Laflamme threshold of the black string, extended from order 1/n^4 to 1/n^12; the coefficients are multiple zeta values, including zeta(5,3) and zeta(3,5,3), and the last two orders were derived blind and matched unseen numerics to 59-64 digits. Strong numerical evidence that the series diverges, with a large-order law (prefactor and phase) that predicted coefficients 41-50 blind. The same series continued to n = -d through the AdS/Ricci-flat map and resummed predicts the static sound-channel screening masses of the AdS_{d+1} black brane (1.2e-15 at the fresh point d = 6.5). Every test was sealed before the data except where flagged; failures are reported as failures. Contains the preprint, data, code that regenerates the headline numbers, and the sealed-test records.</p>",
-  "creators": [{"name": "Moki & Julio"}],
+  "description": "<p><b>In plain words.</b> \nA black string is a black hole stretched along an extra dimension. If it is long enough, it is unstable and starts to break up. The point where the trouble starts is one number, the Gregory-Laflamme threshold. When the number of dimensions is very large it can be written as an endless list of corrections. Five terms were published in 2015 and 2018; we now have thirteen, derived by exact algebra and checked against numbers computed separately. There is strong numerical evidence that the list never converges. Yet a standard change of variables turns it into a statement about a hot plasma, and with 38 further terms computed numerically and a standard summing method it predicted that plasma's screening mass to about 9 digits at one test dimension and about 15 at another, neither of which it had been tuned on. Every scored prediction was written down and hashed before a separate, blind reviewer computed the answer, except where the scorecards flag otherwise. Failures are listed as failures.</p>\n<p><b>The idea in one picture.</b> a thin stream of water from a tap, which beads into drops once it is long enough. <b>Where the picture breaks.</b> there is no water and no surface tension here, only the geometry of space and time, and we compute only the point where the trouble starts, not what happens after.</p>\n<p><b>For specialists.</b> The exact large-dimension (1/n) series of the Gregory-Laflamme threshold of the black string, extended from order 1/n^4 to 1/n^12; the coefficients are multiple zeta values, including zeta(5,3) and zeta(3,5,3), and the last two orders were derived blind and matched unseen numerics to 59-64 digits. Strong numerical evidence that the series diverges, with a large-order law (prefactor and phase) that predicted coefficients 41-50 blind. The same series continued to n = -d through the AdS/Ricci-flat map and resummed predicts the static sound-channel screening masses of the AdS_{d+1} black brane (blind relative error 1.2e-15 at the fresh point d = 6.5 and 5.8e-10 at the fresh point d = 3.25). Every test was sealed before the data except where flagged; failures are reported as failures. Contains the preprint, data, code that regenerates the headline numbers, and the sealed-test records.</p>\n<p><b>Links.</b> Repository, with a plain-language guide: <a href=\"https://github.com/Hashirama1337s/large-d-gregory-laflamme\">github.com/Hashirama1337s/large-d-gregory-laflamme</a>. All projects: <a href=\"https://github.com/Hashirama1337s\">the Moki &amp; Julio lab map</a>.</p>\n<p><i>Prepared with AI assistance; what was checked, and by what, is stated above.</i></p>",
+  "creators": [
+    {
+      "name": "Moki & Julio"
+    }
+  ],
   "access_right": "open",
   "license": "cc-by-4.0",
-  "keywords": ["Gregory-Laflamme instability", "large D", "black strings", "multiple zeta values", "resurgence", "AdS/Ricci-flat correspondence", "screening mass", "holography", "Pade resummation", "pre-registered tests"]
+  "keywords": [
+    "Gregory-Laflamme instability",
+    "large D",
+    "black strings",
+    "multiple zeta values",
+    "resurgence",
+    "AdS/Ricci-flat correspondence",
+    "screening mass",
+    "holography",
+    "Pade resummation",
+    "pre-registered tests",
+    "black holes",
+    "general relativity",
+    "large-D expansion"
+  ]
 }

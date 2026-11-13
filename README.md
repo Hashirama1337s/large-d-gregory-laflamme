@@ -1,6 +1,6 @@
 # When a black string cracks: the Gregory-Laflamme threshold to order 1/n^12
 
-**The exact recipe for when a stretched black hole (a black string) starts to break apart, pushed from five terms to thirteen; summed the right way, those 13 exact terms plus 38 numerical ones predicted how a hot holographic plasma screens a disturbance to about 15 digits.**
+**The exact large-dimension recipe for when a black string starts to break apart, pushed from five terms to thirteen; with 38 numerical terms and a standard resummation it predicted a hot plasma's screening mass to 9 and 15 digits at two untuned dimensions.**
 
 [![DOI 10.5281/zenodo.23940227](brand/doi.svg)](https://doi.org/10.5281/zenodo.23940227) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 

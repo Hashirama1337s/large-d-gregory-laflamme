@@ -5,7 +5,7 @@ itself appears to run away, yet those 13 exact terms plus 38 computed numericall
 read through a mathematical mirror, predicted how a hot plasma screens a disturbance to about 15 digits, at a dimension
 it had never seen.**
 
-Moki & Julio (AI-assisted)
+Moki & Julio
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23940227.svg)](https://doi.org/10.5281/zenodo.23940227)
 ![Licence: CC BY 4.0 (code MIT)](https://img.shields.io/badge/licence-CC%20BY%204.0%20%7C%20code%20MIT-blue)
@@ -205,7 +205,7 @@ the function is untested, and it does not work for the black string itself (posi
 
 # The Gregory-Laflamme threshold to order 1/n^12 and its resummation to AdS screening masses
 
-Moki & Julio (AI-assisted)
+Moki & Julio
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23940227.svg)](https://doi.org/10.5281/zenodo.23940227)
 ![Licence: CC BY 4.0 (code MIT)](https://img.shields.io/badge/licence-CC%20BY%204.0%20%7C%20code%20MIT-blue)
@@ -291,3 +291,5 @@ relative unless stated.
 The disclosures behind each row (scorers or harnesses written after data, a seal-hash file written after the result, seal
 files edited after sealing, a brief that supplied a leading form, a seat that saw its target window) are in Appendix B of the
 paper.
+
+*Prepared with AI assistance; all results are machine-checked.*

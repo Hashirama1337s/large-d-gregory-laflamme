@@ -1,6 +1,6 @@
 # The Gregory-Laflamme threshold to order 1/n^12 and its resummation to AdS screening masses
 
-Moki & Julio (AI-assisted)
+Moki & Julio
 
 ---
 

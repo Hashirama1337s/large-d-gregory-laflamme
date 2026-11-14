@@ -214,6 +214,7 @@ Text and data: CC BY 4.0 (`LICENSE`). Code in `code/`: MIT (`LICENSE-CODE`).
 
 - [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics): where the fluid series of a holographic plasma stops working, followed to large dimension
 - [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber): a certified computed approximation of the Chen-LeBrun-Weber Einstein metric
+- [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3): a computer-certified closeness bound for the Ricci-flat metric on a Kummer K3 surface, for every bubble size up to 0.03
 - All projects: [the Moki & Julio lab map](https://github.com/Hashirama1337s)
 
 ---

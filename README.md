@@ -4,7 +4,7 @@
 
 [![DOI 10.5281/zenodo.23940227](brand/doi.svg)](https://doi.org/10.5281/zenodo.23940227) ![Licence: text and data CC BY 4.0, code MIT](brand/licence.svg) [![Moki & Julio lab map](brand/lab.svg)](https://github.com/Hashirama1337s)
 
-Moki & Julio · 2026 · version 1.0
+Moki & Julio · 2026 · version 1.0.1
 
 **Read** [paper.md](paper.md) · **Re-run** [REPRODUCE.md](REPRODUCE.md) (Python + mpmath, seconds) · **Check**
 [SEALS/HASHES.md](SEALS/HASHES.md) · **Companion** [Paper II](https://github.com/Hashirama1337s/airy-edge-hydrodynamics)
@@ -33,6 +33,10 @@ Summed with a standard rational method, the 13 exact terms plus 38 computed nume
 plasma's screening mass (how strongly it damps a still disturbance) to about 9 digits at d = 3.25 and about 15 digits at
 d = 6.5, two dimensions it had not been tuned on. The same method does not work in the other direction, for the black
 string itself in low dimensions.
+
+![Sealed predictions of the plasma's screening mass against blind 40-digit answers: every error sits far below its pass line, from about 1e-7 at d = 2.25 to about 1e-23 at d = 13.3](figures/blind-test.svg)
+
+*Each mark is one sealed prediction of the plasma's screening mass, scored against a value computed separately to 40 digits by a seat that could not see the prediction. Height is the relative error (log scale: each step down is a factor 100 smaller). The grey dash above each mark is the pass line set before the answer existed. Filled marks are fresh dimensions the method had never been tuned on; hollow marks are not fresh: data at or near that dimension already existed (unseen by the predictor; d = 2.5 was partly touched). At the fresh point d = 3.25 the error is 5.8e-10 (about 9 digits right); at d = 6.5 it is 1.2e-15 (about 15 digits). Squares: the first test, which also used a fitted pole law; circles: the later test with a plain Padé fraction only.*
 
 Why "d = 3.25"? The formulas can be evaluated at any d, whole or not. A non-integer d is a mathematical test point, not a
 real space, and that makes it a fair exam: nothing had been tuned there.
@@ -118,6 +122,10 @@ You can watch the runaway happen. At D = 6, the sum through the 1/n^4 term is of
 off by 110 %. Measured another way, the size of the j-th coefficient g_j, taken to the power 1/j, rises from 3.3 at
 j = 8 to 11.2 at j = 40.
 
+![Error of the threshold series summed term by term for a black string in D = 6: best 2.4 % through the 1/n^4 term, then about 110 % with one more term and about 228,000 % with all 13 exact terms](figures/partial-sums-d6.svg)
+
+*The black string in D = 6 (n = 2). Each point adds one more exact term of the threshold series and compares the sum with the true threshold, computed numerically. The error wanders between about 8 % and 20 % and is smallest, 2.4 %, with the terms through 1/n^4; then it grows: one more term gives about 110 %, and all 13 exact terms give about 228,000 %. Adding terms stops helping; this is what "the series diverges" looks like (strong numerical evidence, not a proof). The line joins the computed points.*
+
 So instead of adding terms one by one, we fit a **fraction**, a ratio of two polynomials of degree 25 (a Pade approximant),
 that agrees with the list g0..g50: the 13 exact terms plus 38 computed numerically from high-precision solutions
 (51 in all). Evaluated at n = -d it gives the plasma's screening mass m^2(d). At d = 6.5 the sealed
@@ -201,14 +209,52 @@ the function is untested, and it does not work for the black string itself (posi
 - **Zeta value** - zeta(s) = 1 + 1/2^s + 1/3^s + ...; for example zeta(3) = 1 + 1/8 + 1/27 + ...
 - **Fresh point** - a dimension d the predictor was never tuned on.
 
+## Open doors
+
+What this work leaves open, and what we noticed along the way but did not follow up, for anyone who wants to take the next step.
+
+- **Why the patterns in the exact series hold, and why zeta(2) stays out.** In the exact list of terms, the part with no zeta
+  values, the part linear in zeta(3) and the part linear in zeta(5) each add up to a simple fraction in 1/n, and zeta(2) never
+  appears on its own. All four patterns were checked exactly through order 22, but none is proved. The zeta(7) and zeta(9)
+  parts do not seem to follow such a fraction (their coefficient ratios keep growing through order 21). *Status:* UNTESTED
+  observation from this work. *Start here:* Appendix E of [paper.md](paper.md), the closed forms in `data/deriv_RESULT.json`
+  and the exact coefficients in `data/exact_g.json`. *Ceiling:* a proof of the four patterns to all orders, with a reason
+  why zeta(7) and zeta(9) behave differently.
+- **Derive the -1/12 in the growth law.** The law that says how fast the terms grow (Section 4.2 of the paper) contains a
+  correction factor whose first term, -1/12, was measured to 8 digits by solving the equations numerically, not derived.
+  *Status:* UNTESTED observation from this work. *Start here:* Section 4.2 of [paper.md](paper.md) (the law, its derived
+  strength sqrt(e)/(2 pi) with the caution printed there, and the residue formula) and the coefficients g13..g50 in
+  `data/np_RESULT.json`. *Ceiling:* the growth law with every constant derived and none measured.
+- **Why the AdS side shows no missing piece.** A standard estimate expects corrections that no list of terms can see, of size
+  about d^(-d/2), for flat and AdS black branes alike. On the AdS side the resummed series leaves no room for them: anything
+  it misses is below 2e-11 at d = 4 and below 3e-12 at the fresh point d = 4.5, where the estimate is about 0.03. The
+  estimate is a rough one, so this is a tension, not a contradiction. *Status:* UNTESTED observation from this work.
+  *Start here:* the `m2(d)` recipe above, the 40-digit blind values in `data/F1_blind_RESULT.json` and
+  `data/F2_blind_RESULT.json`, and Section 5.4 of [paper.md](paper.md). *Ceiling:* a reason why the estimate does not carry
+  over to AdS, or a measurement of the missing piece below 1e-12.
+- **Reach the five-dimensional black string by resummation.** In D = 5 the threshold is known to 39 digits (Appendix F), but
+  no resummation of the series tried here reached it to the sealed accuracy; the best came within 7.7e-6 (relative). The
+  law-subtracted Borel scheme failed at n = 1 and 2. Our untested guess is that the singularities of the series nearest to
+  n = 1 and 2 are not described well enough by the growth law. *Status:* UNTESTED observation from this work. *Start here:*
+  Sections 4.3 and 7 and Appendix F of [paper.md](paper.md), with `data/exact_g.json` and `data/np_RESULT.json`.
+  *Ceiling:* a resummation that recovers lambda(n = 1) = 0.76765705009... from the series alone.
+- **The map of singularities at negative dimension.** Continued to negative and complex d, the AdS screening function has a
+  branch point (a point where the function stops being single-valued) near d = -5.14 +- 3.55i, and its values depend on
+  which side of it a path passes. Our sealed bridge through negative d failed; only after the fact, on one side, did the
+  residues at d = -22 to -32 approach the predicted law. *Status:* UNTESTED observation from this work. *Start here:*
+  Section 6 and Appendix G of [paper.md](paper.md), and the records in `SEALS/SB/`. *Ceiling:* a full map of the
+  singularities of the continued function, showing exactly how the black-string and AdS answers are joined.
+
 ## How to cite
 
 ```
-Moki & Julio (2026). The Gregory-Laflamme threshold to order 1/n^12 and its resummation to AdS screening masses. Version 1.0. Zenodo. https://doi.org/10.5281/zenodo.23940227
+Moki & Julio (2026). The Gregory-Laflamme threshold to order 1/n^12 and its resummation to AdS screening masses. Version 1.0.1. Zenodo. https://doi.org/10.5281/zenodo.23940227
 ```
 
 The DOI always resolves to the newest archived version. Version 1.0 is 10.5281/zenodo.23940228. Machine-readable: [CITATION.cff](CITATION.cff).
 Text and data: CC BY 4.0 (`LICENSE`). Code in `code/`: MIT (`LICENSE-CODE`).
+
+v1.0.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 

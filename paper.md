@@ -349,6 +349,36 @@ Node files for lambda(n), the derivation's intermediate files and the threshold 
 
 ---
 
+## Open doors
+
+What this work leaves open, and what we noticed but did not follow up.
+
+- **Why the towers hold, and why zeta(2) stays out.** The four patterns of Appendix E (zeta-free part (1+eps)/(1+2eps);
+  zeta(3) and zeta(5) towers as rational functions of eps = 1/n; no lone zeta(2)) hold exactly for j = 0..22 (BAR-R2), with
+  no all-orders proof; the zeta(7) and zeta(9) towers do not appear to be rational functions of this kind (Appendix E).
+  *Status:* UNTESTED observation from this work. *Start here:* Appendix E, Appendix D, `data/deriv_RESULT.json`,
+  `data/exact_g.json`. *Ceiling:* an all-orders proof of the four patterns and an account of the zeta(7), zeta(9) towers.
+- **Derive c1 = -1/12.** In the residue law of Section 4.2 the first correction in c(m), -1/12, was measured to 8 digits by
+  shooting, not derived (and K was derived with the target window visible, Section 4.2). *Status:* UNTESTED observation from
+  this work. *Start here:* Section 4.2 (K = sqrt(e)/(2 pi), R_N, the far-zone Bessel connection coefficient),
+  `data/np_RESULT.json`. *Ceiling:* the large-order law with K and c(m) both derived blind.
+- **The AdS remainder.** [EST15 eq. (5.6)] estimates non-perturbative corrections O(nbar^(-nbar/2)) for planar horizons,
+  Ricci-flat and AdS black branes alike; on the AdS side any term the resummation misses is below 2e-11 at d = 4 and 3e-12 at
+  fresh d = 4.5, where the estimate is 0.034 (Section 5.4). We call this a tension with the heuristic extension to AdS, not a
+  contradiction. *Status:* UNTESTED observation from this work. *Start here:* Section 5.4, Appendix C,
+  `data/F1_blind_RESULT.json`, `data/F2_blind_RESULT.json`. *Ceiling:* a derivation of why the estimate does not carry over
+  to AdS, or a measured remainder below 1e-12.
+- **D = 5 from the series.** No resummation tried reaches lambda(n = 1) to the sealed accuracy (BAR-NP P3, BAR-R1 P3-P4;
+  best 7.7e-6 relative, Section 4.3). Our untested guess is that the low poles (n = 2, 4, 6) of the residue law are not
+  described accurately enough by the one-instanton law and control the failure at n = 1, 2. *Status:* UNTESTED observation
+  from this work. *Start here:* Section 4.3, Appendix F (39 digits of lambda(1)), `data/exact_g.json`, `data/np_RESULT.json`.
+  *Ceiling:* lambda(1) recovered from the 1/n series alone.
+- **Singularities of the continued function.** The continued AdS screening function has a branch point near
+  d ~ -5.14 +- 3.55i and is sheet-dependent (Section 6); BAR-SB P1-P3 failed, and the approach of the residues at d = -2N,
+  N = 11..16, to the one-instanton law is POST HOC (Appendix G). *Status:* UNTESTED observation from this work. *Start here:*
+  Section 6, Appendix G, `SEALS/SB/`. *Ceiling:* a complete singularity map of m^2(d) in complex d, fixing how the flat and
+  AdS sides connect.
+
 ## Appendix A. Methods
 
 ### A.1 Seats and sealed tests

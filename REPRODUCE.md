@@ -15,6 +15,8 @@ python code/verdict_F1.py
 
 The scripts read only data/ and write only to out/.
 
+Figures: `python figures/make_figures.py .` (needs matplotlib 3.11 in addition to mpmath; regenerates both SVGs in figures/).
+
 ## 1. The k-series and g0..g12 from the closed forms
 
 `python code/exact.py 450` evaluates k0..k12 from the closed forms in data/deriv_RESULT.json (the multiple zeta values are

@@ -258,6 +258,7 @@ v1.0.1: adds Open doors and figures; no change to the certified results.
 
 ## Related projects
 
+- [certified-page-time](https://github.com/Hashirama1337s/certified-page-time): certified Page evaporation constants (entropy ratio and Page time) of a Schwarzschild black hole emitting photons and gravitons
 - [airy-edge-hydrodynamics](https://github.com/Hashirama1337s/airy-edge-hydrodynamics): where the fluid series of a holographic plasma stops working, followed to large dimension
 - [certified-chen-lebrun-weber](https://github.com/Hashirama1337s/certified-chen-lebrun-weber): a certified computed approximation of the Chen-LeBrun-Weber Einstein metric
 - [certified-kummer-k3](https://github.com/Hashirama1337s/certified-kummer-k3): a computer-certified closeness bound for the Ricci-flat metric on a Kummer K3 surface, for every bubble size up to 0.03
